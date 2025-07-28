@@ -1,0 +1,3 @@
+/home/himanshuthakur_13/beginner-cpp-projects/todo-list/build/CMakeFiles/todo-list.dir
+/home/himanshuthakur_13/beginner-cpp-projects/todo-list/build/CMakeFiles/edit_cache.dir
+/home/himanshuthakur_13/beginner-cpp-projects/todo-list/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/todo-list.dir/src/date.cpp.o" "CMakeFiles/todo-list.dir/src/task.cpp.o" "CMakeFiles/todo-list.dir/src/todo_list.cpp.o" "CMakeFiles/todo-list.dir/src/main.cpp.o" -o todo-list
