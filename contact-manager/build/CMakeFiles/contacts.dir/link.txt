@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/contacts.dir/src/main.cpp.o CMakeFiles/contacts.dir/src/contact.cpp.o CMakeFiles/contacts.dir/src/contact_manager.cpp.o -o contacts

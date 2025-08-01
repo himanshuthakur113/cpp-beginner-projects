@@ -5,17 +5,21 @@
 #include <vector>
 #include <string>
 
-class ContactManger{
+class ContactManager{
 
     private:
         std::vector<Contact> contacts;
 
+        void displayMenu() const;
+
     public:
+
+
         void addContact();
         void viewContacts() const;
-        void searchContacts() const;
-        void updateContacts();
-        void deleteContacts();
+        void searchContact() const;
+        void updateContact();
+        void deleteContact();
         
         void run();
 };

@@ -1,0 +1,3 @@
+/home/himanshuthakur_13/beginner-cpp-projects/contact-manager/build/CMakeFiles/contacts.dir
+/home/himanshuthakur_13/beginner-cpp-projects/contact-manager/build/CMakeFiles/edit_cache.dir
+/home/himanshuthakur_13/beginner-cpp-projects/contact-manager/build/CMakeFiles/rebuild_cache.dir

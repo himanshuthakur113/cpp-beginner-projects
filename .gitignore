@@ -1,1 +1,9 @@
-*.out\n*.exe\n*.o\nbuild/
+# Ignore build artifacts
+/build/
+/bin/
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/*.cmake
+/*.ninja
+

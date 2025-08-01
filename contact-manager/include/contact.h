@@ -10,6 +10,7 @@ class Contact{
         std::string phone;
 
     public:
+        Contact(const std::string& _name,const std::string& _phone);
         const std::string& getName() const;
         const std::string& getPhone() const;
 
