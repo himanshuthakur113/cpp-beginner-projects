@@ -2,6 +2,7 @@
 #include <iostream>
 #include <limits>
 #include <cctype>
+#include <fstream>
 
 
 void ContactManager::displayMenu() const {
@@ -179,9 +180,46 @@ void ContactManager::run() {
         } else if (choice == "5") {
             deleteContact();
         } else if (choice == "6") {
+            exitAndSave();
             std::cout << "Exiting Contact Manager. Goodbye!" << std::endl;
         } else {
             std::cout << "Invalid choice! Please enter a number between 1 and 6." << std::endl;
         }
     }
 }
+
+
+void ContactManager::saveContactsToFile() const{
+
+    std::ofstream outputFile("contact.txt");
+
+    if (!outputFile.is_open()){
+
+        std::cout << "File not opened" <<std::endl;
+
+    }else{
+
+        for(auto &i:contacts){
+            
+            outputFile << i.getName() << "," << i.getPhone() << std::endl;
+
+        }
+     
+        outputFile.close();
+    }
+}
+
+
+
+void ContactManager::exitAndSave(){
+    saveContactsToFile();
+    std::cout << "Good BYe!" <<std::endl;
+}
+
+
+
+
+
+
+
+

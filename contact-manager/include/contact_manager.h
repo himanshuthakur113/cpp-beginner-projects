@@ -12,6 +12,9 @@ class ContactManager{
 
         void displayMenu() const;
 
+        void saveContactsToFile() const;
+
+
     public:
 
 
@@ -22,6 +25,7 @@ class ContactManager{
         void deleteContact();
         
         void run();
+        void exitAndSave();
 };
 
 #endif
